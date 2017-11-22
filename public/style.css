@@ -10,7 +10,7 @@ body {
 
 h1 {
   margin: 0;
-  font-family: 'Lobster', cursive;  
+  font-family: 'Lobster', cursive;
   font-weight: normal;
   font-size: 2rem;
 }
@@ -38,7 +38,7 @@ header {
 #map {
   flex: 2;
   height: calc(100vh - 3rem);
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 @media screen and (max-width: 600px) {
@@ -97,6 +97,30 @@ select {
 
 .options-btn:active {
   background: #286090;
+}
+
+.delete-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  font-size: 8px;
+  background: rgb(202, 11, 11);
+  border: 0;
+  color: #fff;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.list-group li {
+  display: flex;
+  justify-content: space-between;
 }
 
 
